@@ -1,0 +1,27 @@
+{
+  "name": "u-beliakou/one-time-operation-sdk",
+  "description": "One-Time-Operations SDK",
+  "version": "0.1.0",
+  "type": "library",
+  "license": "MIT",
+  "keywords": ["data migration", "migration", "one time operation", "sdk"],
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "Ubeliakou\\OneTimeOperationSdk\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Ubeliakou\\OneTimeOperationSdk\\Tests\\": "tests/"
+    }
+  },
+  "require-dev": {
+    "phpstan/phpstan": "^1.12",
+    "phpunit/phpunit": "^10.5",
+    "mikey179/vfsstream": "^1.6"
+  },
+  "require": {
+    "php": ">=8.0"
+  }
+}
