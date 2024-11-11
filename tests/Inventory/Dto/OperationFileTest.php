@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Ubeliakou\OneTimeOperationSdk\Tests\Executor\Dto;
+namespace Ubeliakou\OneTimeOperationSdk\Tests\Inventory\Dto;
 
 use PHPUnit\Framework\TestCase;
 use Ubeliakou\OneTimeOperationSdk\Inventory\Dto\OperationFile;
