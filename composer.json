@@ -24,5 +24,17 @@
   "require": {
     "php": ">=8.0",
     "ext-pdo": "*"
+  },
+  "scripts": {
+    "pre-commit": [
+      "@phpstan",
+      "@phpunit"
+    ],
+    "phpstan": [
+      "phpstan analyse -c phpstan.neon --no-progress"
+    ],
+    "phpunit": [
+      "phpunit --configuration='./phpunit.xml.dist' --do-not-cache-result --colors"
+    ]
   }
 }
